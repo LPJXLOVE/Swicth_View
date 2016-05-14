@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity implements SwicthView.Change
         tv_tip= (TextView) findViewById(R.id.tv_tip);
         swicthView= (SwicthView) findViewById(R.id.s);
         swicthView.setChangeFragment(this);
-        swicthView.setFrist_text("你好");
     }
 
 

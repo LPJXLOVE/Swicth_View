@@ -37,6 +37,7 @@ public class SwicthView extends FrameLayout implements View.OnClickListener {
         TypedArray a=context.obtainStyledAttributes(attrs,R.styleable.SwicthView,defStyleAttr,0);
         frist_text=a.getString(R.styleable.SwicthView_first_text);
         second_text=a.getString(R.styleable.SwicthView_second_text);
+        a.recycle();
         InitData();
     }
 
@@ -49,6 +50,7 @@ public class SwicthView extends FrameLayout implements View.OnClickListener {
         text_press_color = Color.WHITE;
         text_normal_color =Color.DKGRAY;
         press_background=R.color.colorPrimary;
+        normal_background=R.drawable.normal_background;
     }
 
     public void setSecond_text(String second_text) {

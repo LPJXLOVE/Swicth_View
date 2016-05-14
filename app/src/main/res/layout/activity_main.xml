@@ -13,6 +13,8 @@
 
         <com.example.lpjxlove.swicth_view.SwicthView
             android:id="@+id/s"
+            app:first_text="消息"
+            app:second_text="好友"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -24,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
+        android:text="第一"
         android:id="@+id/tv_tip"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
