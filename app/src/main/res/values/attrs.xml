@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwicthView">
+        <attr name="first_text" format="string"></attr>
+        <attr name="second_text" format="string"></attr>
+    </declare-styleable>
+</resources>
